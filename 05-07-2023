@@ -1,0 +1,8 @@
+Threads:
+ Public class current{
+      public Static void main(string[] args)
+    System.out.println("Lut us finf  the current Thread:")
+    Thread t= new Thread().currentThread();
+    System.out.println("current Thread:"+t)
+    System.out.println("current Thread name:"+t.getname())
+ }
