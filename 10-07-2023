@@ -1,0 +1,118 @@
+start
+declare and assign two varibales with values a=2,b=3
+assign a=a+b
+assign b=a-b
+assign a=a-b
+assign a=temp
+print a,b
+stop
+
+LINEAR SEARCh:
+Public class LinearSEarch{
+ public static void main(String[] args){
+ INT ARR[]={1,7,3}
+ int serach=8;
+ int temp=0;
+ System.out.println(arr.length)
+ for (int i=0;i<arr.length;i++){
+      if(arr[i]==search)
+      {
+        temp=-1
+        alueSystem.out.println("find"+arr[i])
+      }
+ }
+ if(temp!=-1)
+ System.out,println("Did not find the v")
+  }
+}
+
+
+BINARYSEARCH:
+Intitally sequence hass to be sorted
+need to find the mid value(n/2)
+we have to compare the search value with mid value
+then update the start and end value 
+ n/2 n/4 n/8 n/16-------------
+ n/2^x
+ n/2^x=1
+ n=2^x
+ logn=xlog2
+log2=
+ constant
+ x=log n
+ therfore O(log n) is the timecomplexity fro binary search
+
+class BinarySEarch(){
+  public staic void binart(arr[],int search){
+  int start=0;
+  int end=arr.length-1;
+  int mid =(start+mid)/2;
+  while(start>=end)
+  }
+  }
+
+
+
+
+
+
+SORTING:
+=-----=
+SELECTION SORT:
+1>we are finding the minimum of the sequence 
+
+package sortions;
+public class SelectionSort {
+	public static int[] print(int arr[]) {
+		int n=arr.length;//6
+	
+		int a;
+		for(int i=0;i<n;i++) {
+			int temp=i;
+		for(int j=i;j<n;j++)
+		{
+			if(arr[temp]>arr[j])
+			{
+				temp=j;
+			}
+		}
+		int sm=arr[temp];
+		arr[temp]=arr[i];
+		arr[i]=sm;
+	}
+		return arr;
+}	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		int arr[]= {6,5,2,7,3,4};
+		int res[]=print(arr);
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println(res[i]);
+		}
+		
+	}
+
+}
+
+bubble sort:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
